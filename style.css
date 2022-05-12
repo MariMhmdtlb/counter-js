@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.3rem;
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 10px;
+}
+
+.counter-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-text {
+    font-size: 3rem;
+    line-height: 7rem;
+}
+
+.counter-text span {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 4px 0.6rem;
+    border-radius: 7px;
+    background-color: transparent;
+}
